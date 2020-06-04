@@ -1,4 +1,4 @@
-package com.wesley.cursojavaloiane;
+package com.wesley.exercicio01;
 
 public class TestaLampada {
     public static void main(String[]args){

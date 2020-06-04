@@ -1,4 +1,4 @@
-package com.wesley.cursojavaloiane;
+package com.wesley.exercicio01;
 
 public class Lampada {
 
