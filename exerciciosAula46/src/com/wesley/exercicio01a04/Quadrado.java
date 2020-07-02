@@ -2,13 +2,19 @@ package com.wesley.exercicio01a04;
 
 public class Quadrado extends Figura2D{
 
-    private int Lado;
+    private int lado;
 
     public int getLado() {
-        return Lado;
+        return lado;
     }
 
     public void setLado(int lado) {
-        Lado = lado;
+        lado = lado;
+    }
+
+    @Override
+    public double calcularArea() {
+        return lado * lado;
+        //eturn Math.pow(lado, 2);
     }
 }
