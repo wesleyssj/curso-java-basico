@@ -1,6 +1,6 @@
 package com.wesley.cursojavaloiane;
 
-public class Main {
+public class TestandoFinally {
 
     public static void main(String[] args) {
 	// write your code here
@@ -12,7 +12,7 @@ public class Main {
             vetor[5] = 10;
 
             System.out.println("Esse texto não será impresso!");
-        } catch(ArrayIndexOutOfBoundsException exception){
+        } catch(Exception e){
             System.out.println("Excecção ao acessar um índice do vetor que não existe");
         }
 
